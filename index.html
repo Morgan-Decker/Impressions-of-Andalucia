@@ -5,39 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impressions of Andalucia</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     </style>
 </head>
 
 <body>
   <!--  Navigation -->
-  <nav>
-    <ul>
-      <li>About the Book</li>
-      <li>About the Authors</li>
-      <li>Gallery</li>
-      <li>Buy Now</li>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="book.html" class="nav__link">About the Book</a></li>
+      <li class="nav__item"><a href="authors.html" class="nav__link">About the Authors</a></li>
+      <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+      <li class="nav__item"><a href="buy.html" class="nav__link">Buy Now</a></li>
+      <li class="nav__item"><a href="events.html" class="nav__link">Upcoming Events</a></li>
     </ul>
   </nav>
 
 
   <!-- Page Title -->
-  <h1>Impressions of Andalucia</h1>
+  <h1 class="page-title">Impressions of Andalucia</h1>
 
-  <div class="about the book">
-    <div class="extract">
-      <img src="img/village.jpeg">
-      <p>Extract 1</p>
-    </div>
+  <div class="grid">
+    <div class="grid__item"><img src="img/village.jpeg" class="extract"></div>
+    <div class="grid__item"><p class="extract">Extract 1</p></div>
 
-    <div class="extract">
-      <img src="img/village.jpeg">
-      <p>Extract 2</p>
-    </div>
+    <div class="grid__item"><img src="img/village.jpeg" class="extract"></div>
+    <div class="grid__item"><p>Extract 2</p></div>
 
-    <div class="extract">
-      <img src="img/village.jpeg">
-      <p>Extract 3</p>
-    </div>S
+    <div class="grid__item"><img src="img/village.jpeg" class="extract"></div>
+    <div class="grid__item"><p>Extract 3</p></div>
   </div>
 
 </body>
